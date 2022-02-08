@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.background-box {
+    background: hsla(215, 52%, 9%, 0.082);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-component {
+    background: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 15px 0px;
+    box-shadow: -5px 15px 5px rgb(4, 8, 14);
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    cursor: pointer;
+}
+.container-images:hover {
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(0, 255, 242))
+}
+
+.container-icon-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    position: absolute; 
+    opacity: 0;
+}
+.container-icon-view:hover{
+    opacity: 1;
+}
+
+.image-equilibrium {
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.paragraph {
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    padding-top: 15px;
+}
+
+.together {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    gap: 0px 5px;
+}
+
+.ethereum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    gap: 0px 5px;
+}
+
+.creator-avatar {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    border-top: 0.1px solid hsl(215, 51%, 70%);
+    padding-top: 10px;
+}
+.text-creator {
+    padding-left: 10px;
+}
+.name-creator {
+    padding-left: 3px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.image-avatar {
+    border: 0.7px solid hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+
+.name-creator:hover, .title:hover{
+    color: hsl(178, 100%, 50%);
+}
